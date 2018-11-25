@@ -2,9 +2,8 @@ package adprog_coursework;
 
 /**
  *
- * @author @UP811334
+ * @author UP811334, UP853434, UP812191, UP880323
  */
-import adprog_coursework.NewCardboard;
 import java.text.DecimalFormat;
 
 /**
