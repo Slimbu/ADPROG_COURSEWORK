@@ -2,8 +2,13 @@ package adprog_coursework;
 
 /**
  * 
- * @author UP811334, UP853434, UP812191, UP880323
+ * @author @UP811334
  */
+
+import adprog_coursework.CardboardTypeIV;
+import adprog_coursework.CardboardTypeIII;
+import adprog_coursework.CardboardTypeII;
+import adprog_coursework.CardboardTypeI;
 import java.util.ArrayList;
 import javax.swing.*;
 import javax.swing.JDialog;
