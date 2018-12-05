@@ -17,10 +17,11 @@ public class CardboardValidator {
     /**
      * Checks if options make a cardboard of a valid type
      *
-     * @param grade
-     * @param colour
-     * @param reinforcedButtom
-     * @param reinforcedCornor
+     * @param grade grade of the cardboard
+     * @param colour colour of the cardboard
+     * @param reinforcedButtom if reinforcedButtom
+     * @param reinforcedCornor if reinforcedCornor
+     * 
      * @return type of cardboard as integer
      */
     

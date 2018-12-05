@@ -10,11 +10,11 @@ public class CardboardTypeV extends NewCardboard {
     /**
      * Creates a new Type 5 Pipe
      *
-     * @param length
-     * @param width
-     * @param height
-     * @param grade
-     * @param sealableTop
+     * @param length length of cardboard
+     * @param width width of cardboard
+     * @param height height of cardboard 
+     * @param grade garde of cardboard
+     * @param sealableTop if sealableTop
      */
     
     public CardboardTypeV(double length, double width, double height, int grade, boolean sealableTop) {

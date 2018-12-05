@@ -30,6 +30,7 @@ public class CardboradUI extends javax.swing.JFrame {
     private final ArrayList<OrderCardboard> orderList = new ArrayList<>();
     private double total, newLength, newWidth, newHeight;
     private String cost;
+    String floater = "f";
     private int numOfGrade, typeOfCardboard, numOfColour, quantity;
     private boolean reinforcedBottom, reinforcedCornor, sealableTop;
     private NewCardboard currentCardboard;
@@ -478,6 +479,8 @@ public class CardboradUI extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_deleteBtnActionPerformed
 
+
+    
     /**
      * Checks for valid input  
      */
@@ -489,7 +492,7 @@ public class CardboradUI extends javax.swing.JFrame {
         lengthChecker = rangeChecker("Length", newLength, 0.1, 100);
         widthChecker = rangeChecker("Width", newWidth, 0.1, 100);
         heightChecker = rangeChecker("Height", newHeight, 0.1, 100);
-        quantityChecker = rangeChecker("Quantity", quantity, 0.1, 100);
+        quantityChecker = rangeChecker("Quantity", quantity, 1, 100);
 
         return(lengthChecker & widthChecker & heightChecker & quantityChecker);
         
@@ -520,6 +523,7 @@ public class CardboradUI extends javax.swing.JFrame {
         return false;
     }
     
+    
     /**
      * Calculate the total price
      */
@@ -546,9 +550,9 @@ public class CardboradUI extends javax.swing.JFrame {
         orderList.add(newOrder);
 
         //updateTotal();
-        String firstItem;                                                               //list the item
+        String firstItem;                                                               
         firstItem = ("Type:" + typeOfCardboard + " " + newOrder.valuesToString());
-        basketList.add(firstItem);                                                      //add to the list
+        basketList.add(firstItem);                                                      
         resetInput();
     }
 
@@ -619,6 +623,8 @@ public class CardboradUI extends javax.swing.JFrame {
     }
 
     /**
+     * @param tpyeOfCardboard type of cardboard
+     * 
      *  Initialize cardboard 
      */
     private void chooseCardboard(int typeOfCardboard) {
@@ -690,7 +696,7 @@ public class CardboradUI extends javax.swing.JFrame {
     }
 
     /**
-     * select for color 
+     * select for colour 
      */
     private void radioButton() {
         ButtonGroup group = new ButtonGroup();

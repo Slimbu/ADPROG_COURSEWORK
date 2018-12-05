@@ -28,9 +28,9 @@ public abstract class NewCardboard {
      * @param height cardboard height
      * @param grade cardboard grade
      * @param colour cardboard colour
-     * @param reinforcedBottom cardboard reinforced bottom
-     * @param reinforcedCornor cardboard reinforced cornor
-     * @param sealableTop cardboard sealable top
+     * @param reinforcedBottom cardboard reinforcedBottom
+     * @param reinforcedCornor cardboard reinforcedCornor
+     * @param sealableTop cardboard sealablTop
      */ 
     public NewCardboard (double length, double width, double height, int grade, int colour, boolean reinforcedBottom, boolean reinforcedCornor, boolean sealableTop) {
         cardboardLength = length;
@@ -90,7 +90,7 @@ public abstract class NewCardboard {
     
     /**
      * 
-     * @return cardboard color
+     * @return cardboard colour
      */
     public int getCardboardColour () {
         return cardboardColour;
@@ -106,7 +106,7 @@ public abstract class NewCardboard {
     
     /**
      * 
-     * @return true if reinforced cornors
+     * @return true if reinforcedCornor
      */
     public boolean isCardboardReinforcedCornor () {
         return cardboardCornor;
@@ -114,7 +114,7 @@ public abstract class NewCardboard {
     
     /**
      * 
-     * @return true if sealable top
+     * @return true if sealableTop
      */
     public boolean isCardboardSealableTop () {
         return cardboardSealableTop;
