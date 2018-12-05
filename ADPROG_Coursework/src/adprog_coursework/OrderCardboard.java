@@ -4,7 +4,6 @@ package adprog_coursework;
  *
  * @author @UP811334
  */
-import adprog_coursework.NewCardboard;
 import java.text.DecimalFormat;
 
 /**
