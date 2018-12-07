@@ -13,6 +13,5 @@ public class ADPROG {
         
         CardboradUI test = new CardboradUI();
         test.setVisible(true);
-    }
-    
+    } 
 }

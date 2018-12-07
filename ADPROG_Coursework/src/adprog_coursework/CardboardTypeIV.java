@@ -20,6 +20,5 @@ public class CardboardTypeIV extends NewCardboard {
     public CardboardTypeIV(double length, double width, double height, int grade,boolean sealableTop) {
         super(length, width, height, grade, 2, true, false, sealableTop);
         priceMultiplier = 0.15 + 0.13;
-    }
-   
+    } 
 }
